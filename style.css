@@ -100,8 +100,6 @@ nav ul li a img {
     margin-left: 8px;
 }
 
-
-
 .headerText p {
     font-size: 63px;
     letter-spacing: 1px;
@@ -112,12 +110,10 @@ nav ul li a img {
     margin-bottom: 85px;
     margin-right: 23px;
     line-height: 1.2;
-    
 }
 
 .headerText p span:first-child {
-    color: #f5c506;
-    
+    color: #f5c506; 
 }
 
 .headerText p span:last-child {
@@ -172,7 +168,6 @@ section.midleBg {
     0px 3px 9px -1px rgba(0,0,0,0.65);
     box-shadow:         0px -3px 9px -1px rgba(0,0,0,0.65),
     0px 3px 9px -1px rgba(0,0,0,0.65);
-    
 }
 
 section.midleBg .wrapper {
@@ -183,7 +178,6 @@ section.midleBg .wrapper {
 section.midleBg .wrapper .parts {
     flex: 1 0 0;
     border: 1px solid rgba(134, 131, 131, 0.2);
-    
 }
 
 .parts {
@@ -192,7 +186,6 @@ section.midleBg .wrapper .parts {
     justify-content: center;
     align-items: center;
     grid-template-rows: 1.7fr 1fr;
-    
 }
 
 .parts img{
@@ -238,7 +231,6 @@ section.yellowBg {
 }
 
 .contentYellow {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -251,7 +243,6 @@ section.yellowBg {
     display: flex;
     align-items: center;
     position: relative;
-    
 }
 
 .box:first-child, .box:nth-child(3) {
@@ -262,7 +253,6 @@ section.yellowBg {
 .box:last-child {
     display: none;
 }
-
     .contentYellow video {
         background: #ec9e03;
     }
@@ -273,9 +263,7 @@ section.yellowBg {
         font-family: "Segoe WP Light";
         font-weight: 300;
         justify-self: center;
-        display: flex;
-        
-        
+        display: flex; 
     }
 
         .yellowBox p {
@@ -298,9 +286,9 @@ section.yellowBg {
             src: local("Segoe WP Light"), url("./assets/fonts/segoe-wp-light.ttf") format("truetype");
         }
 
-    
-.date { grid-area: 3 / 1 / 4 / 2; }
-
+.date { 
+    grid-area: 3 / 1 / 4 / 2;
+}
 
 .slidecontainer {
     grid-area: 4 / 1 / 5 / 4;
@@ -346,7 +334,6 @@ section.yellowBg {
 
 .footerContent {
     display: flex;
-     
 }
     .footerTitle { 
         height: 81.05px;
@@ -358,10 +345,11 @@ section.yellowBg {
         justify-content: center;
         align-items: flex-end;
      }
+
     .footerImg { 
         align-self: center;
-        
      }
+
     .footerText { 
         margin-left: 79px;
         align-self: flex-end;
@@ -390,14 +378,12 @@ section.yellowBg {
     box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
     -webkit-box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
-    
 }
 
 .footerLogo .wrapper {
     display: flex;
     align-items: center;
     padding-top: 5px;
-    
 }
 
 .footerLogo .wrapper p {
@@ -416,6 +402,7 @@ section.yellowBg {
         background: none;
         height: auto;
     }
+    
     .wrapper {
         margin: 0;
         width: 100vw;
@@ -464,10 +451,7 @@ section.yellowBg {
         height: 61.40px;
     }
 
-
-
     .videocontent {
-        
         height: auto;
         display: block;
         justify-content: space-between;
@@ -495,7 +479,6 @@ section.yellowBg {
     section.midleBg .wrapper .parts {
         flex: 1 0 0;
         border: 1px solid rgba(134, 131, 131, 0.2);
-        
     }
     
     .parts {
@@ -504,21 +487,23 @@ section.yellowBg {
         justify-content: center;
         align-items: center;
         grid-template-rows: 1.7fr 1fr;
-        
     }
     
     .parts img {
         justify-self: center;
         align-self: end;
     }
+    
     .parts img:first-child {
         width: 89px;
         height: 61px;
     }
+    
     .parts img:nth-child(2) {
         width: 67px;
         height: 69px;
     }
+    
     .parts img:last-child {
         width: 68px;
         height: 69px;
@@ -544,8 +529,6 @@ section.yellowBg {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        
-        
     }
     
     .box {
@@ -580,8 +563,6 @@ section.yellowBg {
         background: #f5c507;
         justify-content: center;
         margin: 0;
-        
-        
     }
 
     .box:nth-child(4) p {
@@ -599,7 +580,6 @@ section.yellowBg {
         -webkit-border-radius: 0px 15px 15px 0px;
     }
 
-
     .box:nth-child(4) .input {
         margin-left: 10px;
     }
@@ -610,7 +590,6 @@ section.yellowBg {
         border-radius: 10px 0 0 10px;
         background-color: #ffffff;
         text-decoration: none;
-        
     }
 
     input[type=submit] {
@@ -624,13 +603,12 @@ section.yellowBg {
         font-family: "Arial";
         text-decoration: none;
         cursor: pointer;
-        
-        
     }
     
         .contentYellow video {
             background: #ec9e03;
         }
+    
         .yellowBox {
             font-size: 29px;
             line-height: 38px;
@@ -639,9 +617,6 @@ section.yellowBg {
             font-weight: 300;
             justify-self: center;
             display: flex;
-            
-            
-            
         }
     
             .yellowBox p {
@@ -652,8 +627,6 @@ section.yellowBg {
                 line-height: 1.2;
             }
     
-        
-    
             .yellowBox img {
                 align-self: center;
             }
@@ -661,12 +634,10 @@ section.yellowBg {
             .yellowBox img + a  {
                 display: none;
             }
-
-
     
-        
-    .date { display: none; }
-    
+    .date { 
+        display: none;
+    }
     
     .slidecontainer {
         display: none;
@@ -695,7 +666,6 @@ section.yellowBg {
         .footerImg { 
             align-self: center;
             margin-top: 40px;
-            
          }
         .footerText { 
            display: none;
@@ -711,7 +681,6 @@ section.yellowBg {
         box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
         -webkit-box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
         -moz-box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
-        
     }
     
     .footerLogo .wrapper {
@@ -724,10 +693,9 @@ section.yellowBg {
     .footerLogo .wrapper p {
         font-size: 17px;
     }
+    
     .footerLogo .wrapper img {
         width: 31px;
         height: 31px;
     }
-    
-    
 }
