@@ -1,151 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>The Yalow</title>
+    <link rel="stylesheet" href="preview.css">
+
+    <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <div class="topBg">
-            <button class="arrow left"><img src="./assets/icons/sliderleft.svg" alt=""></button>
-            <button class="arrow right"><img src="./assets/icons/sliderright.svg" alt=""></button>
-            <div class="wrapper">
-                <div class="headerContent">
-                    <div class="logo">
-                        <img src="./assets/images/logo.png" alt="">
-                        <h1>Theyalow</h1>
-                    </div>
-                    <nav>
-                        <ul>
-                            <li><a href="#"><img src="./assets/icons/aboutus.svg" alt=""> About us</a></li>
-                            <li><a href="#"><img src="./assets/icons/services.svg" alt=""> Services</a></li>
-                            <li><a href="#"><img src="./assets/icons/contact.svg" alt=""> Contact</a></li>
-                        </ul>
-                    </nav>
-                </div> 
-                <div class="videocontent">
-                    <div class="video">
-                        <button class="playbtn"><img src="./assets/icons/play.svg" alt=""></button>
+    <section class="the-repair-preview">
+        <div class="d-flex justify-content-center">
+            <iframe class="ifr-the-repair" src="./index.html"></iframe>
+            <button class="btn btn-primary btn-lg desktop-btn-repair hide"><i class="fa fa-desktop"></i>
+                Desktop</button>
+            <button class="btn btn-danger btn-lg mobile-btn-repair"><i class="fa fa-mobile"></i> Mobile</button>
+            <a href="#" class="btn btn-dark btn-lg back-btn-repair"><i class="fa fa-home"></i> Back</a>
+        </div>
+    </section>
+
+
+
+
+    <script src="script.js"></script>
     
-                        <video controls poster="./assets/images/video.png">
-                            <source src="#" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="headerText">
-                        <p>
-                            <span>The Cool</span><br>
-                            <span>The Minimal</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section class="midleBg">
-            <div class="wrapper">
-                <div class="parts">
-                    <img src="./assets/icons/cloud.svg" alt="">
-                    <p>Better Design</p> 
-                </div>
-                <div class="parts">
-                    <img src="./assets/icons/leave.svg" alt="">
-                    <p>Customize</p>
-                </div>
-                <div class="parts">
-                    <img src="./assets/icons/arrow.svg" alt="">
-                    <p>Its Free</p>
-                </div>
-            </div>
-        </section>
-        <section class="yellowBg">
-            <div class="wrapper">
-                <div class="headerWhite">Lorem Ipsum Dolor Sit Amet</div>
-                <div class="contentYellow">
-                    <div class="box">
-                        <div class="yellowBox">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                                sed do eiusmod tempor incididunt ut
-                            </p>
-                            <a href="#"><img src="./assets/icons/plusbtn.svg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <video controls poster="./assets/images/video2.png">
-                            <source src="#" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="box">
-                        <div class="yellowBox">
-                            <img src="./assets/icons/twitter.svg" alt="">
-                            <a href="#"><img src="./assets/icons/plusbtn.svg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <p>Daily Mobile UI Design Inspiration #1 
-                                via @cssauthor</p>
-                        <p>Daily Mobile UI Design Inspiration #1 
-                                via @cssauthor</p>
-                        <p>Daily Mobile UI Design Inspiration #1 
-                                via @cssauthor</p>
-                        <div class="input">
-                            <input type="text"><input type="submit" value="Tweet">
-                        </div>
-                    </div>
-                </div>
-                <div class="date">
-                    <img src="./assets/images/date.png" alt="">
-                </div>               
-                <div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                </div>  
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footerBg">
-            <div class="wrapper">
-                <div class="footerTitle">
-                    <p>LOREM IPSUM DOLOR SIT AMET</p>
-                </div>
-                <div class="footerContent">
-                    <div class="footerImg"> 
-                        <img src="./assets/images/devices.png" alt="">
-                    </div>
-                    <div class="footerText">
-                         <ul>
-                             <div class="bullet">
-                                <img src="./assets/icons/bullet.svg" alt="">
-                                <li>Sed ut perspiciatis unde omnis</li>
-                             </div>
-                             <div class="bullet">
-                                <img src="./assets/icons/bullet.svg" alt="">
-                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
-                             </div>
-                             <div class="bullet">
-                                <img src="./assets/icons/bullet.svg" alt="">
-                                <li>Sed ut perspiciatis unde omnis</li>
-                             </div>
-                             <div class="bullet">
-                                <img src="./assets/icons/bullet.svg" alt="">
-                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
-                             </div>
-                         </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footerLogo">
-            <div class="wrapper">
-                <img src="./assets/images/footerLogo.png" alt="">
-                <p>Theyalow</p>
-            </div>
-        </div>
-    </footer>
 </body>
+
 </html>
