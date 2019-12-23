@@ -1,14 +1,15 @@
-const switchRepairMobile = () => {
-    document.querySelector(".ifr-the-repair").classList.replace("ifr-the-repair", "ifr-the-repair_mb");
-    document.querySelector('.mobile-btn-repair').classList.add('hide');
-    document.querySelector('.desktop-btn-repair').classList.remove('hide');
+const switchYalowMobile = () => {
+    document.querySelector(".ifr-the-yalow").classList.replace("ifr-the-yalow", "ifr-the-yalow_mb");
+    document.querySelector('.mobile-btn').classList.add('hide');
+    document.querySelector('.desktop-btn').classList.remove('hide');
 }
 
-const switchRepairDesktop = () => {
-    document.querySelector(".ifr-the-repair_mb").classList.replace("ifr-the-repair_mb", "ifr-the-repair");
-    document.querySelector('.desktop-btn-repair').classList.add('hide');
-    document.querySelector('.mobile-btn-repair').classList.remove('hide');
+const switchYalowDesktop = () => {
+    document.querySelector(".ifr-the-yalow_mb").classList.replace("ifr-the-yalow_mb", "ifr-the-yalow");
+    document.querySelector('.desktop-btn').classList.add('hide');
+    document.querySelector('.mobile-btn').classList.remove('hide');
 }
 
-document.querySelector(".mobile-btn-repair").addEventListener('click', switchRepairMobile);
-document.querySelector(".desktop-btn-repair").addEventListener('click', switchRepairDesktop);
+document.querySelector(".mobile-btn").addEventListener('click', switchYalowMobile);
+document.querySelector(".desktop-btn").addEventListener('click', switchYalowDesktop);
+document.querySelector(".back-btn").addEventListener('click', backHomeYalow);
